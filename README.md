@@ -23,7 +23,7 @@ their content too.
 
 >>> dic = content(folderName, flag=False)
 ```
-*in bash:
+* in bash:
 
 ```
 $ python content.py folderName --> prints files in folderName with their types on screen.
