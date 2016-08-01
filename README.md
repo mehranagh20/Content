@@ -28,14 +28,14 @@ their content too.
 ```
 $ python content.py folderName --> prints files in folderName with their types on screen.
 
-$ python content.py --toFile fileName folderName -->> same as before but writes to fileName.
+$ python content.py --toFile fileName folderName --> same as before but writes to fileName.
 ```
 
 --r argument will list files in nested folders in folderName too.
 example:
 
 ```
-& python content.py --r --tofile fileName folderName+
+& python content.py --r --tofile fileName folderName
 ```
 
 ## License
