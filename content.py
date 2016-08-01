@@ -17,7 +17,7 @@ def content(fN, flag=False):
                 types[ext] = l
             else: types[ext].append(files)
         elif os.path.isdir(ff) and flag:
-            content(ff)
+            content(ff, True)
     return types
 
 
@@ -49,7 +49,7 @@ def main():
         for (fileT, fileNs) in sorted(lis.items()):
             print '\n', fileT, ":"
             for fileN in fileNs:
-                print '\t\t\t', fileT
+                print '\t\t\t', fileN
             print '\n---------------------------------------------------------------\n\n'
 
 
