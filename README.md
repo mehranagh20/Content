@@ -12,7 +12,7 @@ $ pip install -r requirements.txt --upgrade
 ```
 
 ## Usage
-*in python:
+* in python:
 
 content function will return dict of all fileTypes with their corresponding files.
 True flag will make content to treat nested folders like folderName and list all
